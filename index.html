@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/simple.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<p>How <span style='color:blue;'>French</span> are better than <span style="color:red;">Americans</span> <i class="fas fa-wine-glass-alt"></i></p>
+			</section>
+			<section>
+				<h4>Example Table</h4>
+				<img src="./lib/images/table.png">
+				<span class="fragment">
+					<small>
+						<p> data from <a href='https://www.kaggle.com/zynicide/wine-reviews/home'>wine-reviews</a></p>
+					</small>
+				</span>
+			</section>
+			<section>
+				<h4>Top 5 country that has > 80 score wines</h4>
+				<div class="fig-container" style="height: 400px;" data-file="./components/chart1.html" data-scrollable="yes"></div>
+			</section>
+			<section>
+				<h4>Wines score</h4>
+				<div class="fig-container" style="height: 400px;" data-file="./components/chart2.html" data-scrollable="yes"></div>
+			</section>
+			<section>
+				<h4>Distribution of wines score</h4>
+				<div class="fig-container" style="height: 400px;" data-file="./components/chart3.html" data-scrollable="yes"></div>
+			</section>
+			<section>
+				<section>
+					<h4>Statistic</h4>
+				</section>
+				<section data-markdown="./components/markdown/part1.md"></section>
+				<section data-markdown="./components/markdown/part2.md"></section>
+				<section data-markdown="./components/markdown/part3.md"></section>
+			</section>
+			<section>
+				<section>
+					<h4>Hypothesis Testing</h4>
+				</section>
+				<!-- <section data-markdown="./components/test.md"></section> -->
+
+				<section data-markdown="./components/markdown/part4.md"></section>
+				<section data-markdown="./components/markdown/part5.md"></section>
+				<section data-markdown="./components/markdown/part6.md"></section>
+				<section data-markdown="./components/markdown/part7.md"></section>
+			</section>
+			<section>
+				<h4>
+					"After hypothesis testing, we can conclude our hypothesis whether mean score of wine french is better than
+					americans" <i class="fas fa-thumbs-up"></i>
+				</h4>
+			</section>
+			<section>
+				<h4>
+					Thanks for your attention <span style='color:red;'><i class="fas fa-heart"></i></span>
+				</h4>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'node_modules/reveald3/reveald3.js',
+					async: true,
+				},
+				{
+					src: 'plugin/math-katex/math-katex.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
