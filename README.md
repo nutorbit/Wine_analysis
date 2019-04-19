@@ -1,8 +1,8 @@
 # Wine analysis with hypothesis testing 
 
-![](./images/header.png)
-
 A wine analysis presented by [reveal.js](https://revealjs.com/) (2018)
+
+![](./images/header.png)
 
 ## Overview
 
