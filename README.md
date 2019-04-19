@@ -12,4 +12,4 @@ A wine analysis presented by [reveal.js](https://revealjs.com/)
    $ yarn start
    ```
 
-3. Open <http://localhost:8000> to view your presentation
+3. Open <http://localhost:8000> to view presentation
