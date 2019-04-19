@@ -2,6 +2,8 @@
 
 A wine analysis presented by [reveal.js](https://revealjs.com/) (2018)
 
+![](./images/header.png)
+
 ## Overview
 
 ![](./images/1.png)
