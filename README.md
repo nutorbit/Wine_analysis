@@ -1,6 +1,6 @@
-# Wine analysis with hypothesis testing (2018)
+# Wine analysis with hypothesis testing 
 
-A wine analysis presented by [reveal.js](https://revealjs.com/)
+A wine analysis presented by [reveal.js](https://revealjs.com/) (2018)
 
 1. Install dependencies
    ```sh
