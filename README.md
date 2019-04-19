@@ -2,6 +2,17 @@
 
 A wine analysis presented by [reveal.js](https://revealjs.com/) (2018)
 
+## Overview
+
+![](./images/1.png)
+
+![](./images/2.png)
+
+![](./images/3.png)
+
+![](./images/4.png)
+
+
 1. Install dependencies
    ```sh
    $ yarn install
