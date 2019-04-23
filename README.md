@@ -26,3 +26,5 @@ A wine analysis presented by [reveal.js](https://revealjs.com/) (2018)
    ```
 
 3. Open <http://localhost:8000> to view presentation
+
+see more detail [link](./notebooks)
